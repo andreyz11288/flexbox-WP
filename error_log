@@ -1,0 +1,57 @@
+[13-Nov-2024 17:50:45 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home3/forworkf/flexbox.forwork.fun/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php:396
+Stack trace:
+#0 /home3/forworkf/flexbox.forwork.fun/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php(396): method_exists()
+#1 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-hook.php(324): Header_Footer_Elementor->enqueue_scripts()
+#2 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home3/forworkf/flexbox.forwork.fun/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home3/forworkf/flexbox.forwork.fun/wp-includes/script-loader.php(2272): do_action()
+#5 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-customize-manager.php(462): wp_enqueue_scripts()
+#6 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-customize-manager.php(561): WP_Customize_Manager->wp_die()
+#7 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->setup_theme()
+#8 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home3/forworkf/flexbox.forwork.fun/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home3/forworkf/flexbox.forwork.fun/wp-settings.php(634): do_action()
+#11 /home3/forworkf/flexbox.forwork.fun/wp-config.php(95): require_once('/home3/forworkf...')
+#12 /home3/forworkf/flexbox.forwork.fun/wp-load.php(50): require_once('/home3/forworkf...')
+#13 /home3/forworkf/flexbox.forwork.fun/wp-blog-header.php(13): require_once('/home3/forworkf...')
+#14 /home3/forworkf/flexbox.forwork.fun/index.php(17): require('/home3/forworkf...')
+#15 {main}
+  thrown in /home3/forworkf/flexbox.forwork.fun/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php on line 396
+[13-Nov-2024 17:50:52 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home3/forworkf/flexbox.forwork.fun/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php:396
+Stack trace:
+#0 /home3/forworkf/flexbox.forwork.fun/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php(396): method_exists()
+#1 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-hook.php(324): Header_Footer_Elementor->enqueue_scripts()
+#2 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home3/forworkf/flexbox.forwork.fun/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home3/forworkf/flexbox.forwork.fun/wp-includes/script-loader.php(2272): do_action()
+#5 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-customize-manager.php(462): wp_enqueue_scripts()
+#6 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-customize-manager.php(561): WP_Customize_Manager->wp_die()
+#7 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->setup_theme()
+#8 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home3/forworkf/flexbox.forwork.fun/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home3/forworkf/flexbox.forwork.fun/wp-settings.php(634): do_action()
+#11 /home3/forworkf/flexbox.forwork.fun/wp-config.php(95): require_once('/home3/forworkf...')
+#12 /home3/forworkf/flexbox.forwork.fun/wp-load.php(50): require_once('/home3/forworkf...')
+#13 /home3/forworkf/flexbox.forwork.fun/wp-blog-header.php(13): require_once('/home3/forworkf...')
+#14 /home3/forworkf/flexbox.forwork.fun/index.php(17): require('/home3/forworkf...')
+#15 {main}
+  thrown in /home3/forworkf/flexbox.forwork.fun/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php on line 396
+[13-Nov-2024 17:50:55 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home3/forworkf/flexbox.forwork.fun/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php:396
+Stack trace:
+#0 /home3/forworkf/flexbox.forwork.fun/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php(396): method_exists()
+#1 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-hook.php(324): Header_Footer_Elementor->enqueue_scripts()
+#2 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home3/forworkf/flexbox.forwork.fun/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home3/forworkf/flexbox.forwork.fun/wp-includes/script-loader.php(2272): do_action()
+#5 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-customize-manager.php(462): wp_enqueue_scripts()
+#6 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-customize-manager.php(561): WP_Customize_Manager->wp_die()
+#7 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->setup_theme()
+#8 /home3/forworkf/flexbox.forwork.fun/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home3/forworkf/flexbox.forwork.fun/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home3/forworkf/flexbox.forwork.fun/wp-settings.php(634): do_action()
+#11 /home3/forworkf/flexbox.forwork.fun/wp-config.php(95): require_once('/home3/forworkf...')
+#12 /home3/forworkf/flexbox.forwork.fun/wp-load.php(50): require_once('/home3/forworkf...')
+#13 /home3/forworkf/flexbox.forwork.fun/wp-blog-header.php(13): require_once('/home3/forworkf...')
+#14 /home3/forworkf/flexbox.forwork.fun/index.php(17): require('/home3/forworkf...')
+#15 {main}
+  thrown in /home3/forworkf/flexbox.forwork.fun/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php on line 396
